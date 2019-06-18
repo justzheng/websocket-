@@ -320,5 +320,5 @@ class WebSocketServer{
 		}
 }
 
-$ws=new WebSocketServer('127.0.0.1',1234);
+$ws=new WebSocketServer('127.0.0.1',8888);
 $ws->run();
