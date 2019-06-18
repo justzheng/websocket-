@@ -39,10 +39,10 @@ if (window.WebSocket){
 }
 	var ws = new WebSocket("ws://47.92.226.55:8888");
 	ws.onopen = function(){
-	    alert(2);
+	    //alert(2);
 		console.log('连接成功');
 		var data="系统消息：建立连接成功";
-		//list(data);
+		list(data);
 		// ws.send('11');
 	}
 	ws.onmessage = function(e){
