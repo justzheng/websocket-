@@ -216,7 +216,7 @@ class WebSocketServer{
                             //解析消息 websocket协议有自己的消息格式
                             //解码 编码过程固定的
                             $msg=$this->msg_decode($buffer);
-                            echo $msg;
+                            //echo $msg;
                             //编码后发送回去
                             $res_msg=$this->msg_encode($msg);
                             $this->send($res_msg);
